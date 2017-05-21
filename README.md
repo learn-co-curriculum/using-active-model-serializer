@@ -300,7 +300,7 @@ to our `PostSerializer`:
 ```ruby
 class PostSerializer < ActiveModel::Serializer
   attributes :id, :title, :description
-  belongs_to :author
+  has_one :author
 end
 ```
 
@@ -393,3 +393,5 @@ Now let's all celebrate with a nice drink of milk!
 ![joey milk](http://i.giphy.com/TsMnvSsfKzThu.gif)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/using-active-model-serializer'>Using Active Model Serializer</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/using-active-model-serializer'>Using Active Model Serializer</a> on Learn.co and start learning to code for free.</p>
